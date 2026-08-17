@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="undesigned bedroom before renovation">
+<title>undesigned bedroom before renovation</title>
+
+      <rect width="800" height="400" fill="#CFC7BA"/>
+      <rect y="330" width="800" height="70" fill="#C4BCAE"/>
+      <path d="M120,60 L128,150 L118,232" stroke="#B0A697" stroke-width="2.5" fill="none"/>
+      <path d="M640,90 L648,168" stroke="#B0A697" stroke-width="2.5" fill="none"/>
+      <rect x="300" y="96" width="190" height="150" rx="2" fill="#C4BCAE" />
+      <rect x="300" y="96" width="190" height="150" rx="2" fill="none" stroke="#B0A697" stroke-width="3"/>
+      <line x1="395" y1="96" x2="395" y2="246" stroke="#B0A697" stroke-width="3"/>
+      <line x1="300" y1="171" x2="490" y2="171" stroke="#B0A697" stroke-width="3"/>
+      <line x1="200" y1="0" x2="200" y2="120" stroke="#9E948A" stroke-width="2"/>
+      <circle cx="200" cy="132" r="13" fill="#E4DED2"/>
+      <circle cx="200" cy="132" r="30" fill="#E4DED2" opacity=".22"/>
+      <rect y="400" width="800" height="160" fill="#B5AA9A"/>
+      <rect y="400" width="800" height="9" fill="#000" opacity=".08"/>
+      <line x1="0" y1="452" x2="800" y2="452" stroke="#A2978A" stroke-width="1.5"/>
+      <line x1="0" y1="502" x2="800" y2="502" stroke="#A2978A" stroke-width="1.5"/>
+      
+        <rect x="250" y="418" width="300" height="74" rx="6" fill="#C6BBAC" />
+        <rect x="258" y="404" width="284" height="20" rx="5" fill="#B3A796" />
+        <rect x="600" y="440" width="70" height="52" rx="3" fill="#C0B4A2" />
+</svg>

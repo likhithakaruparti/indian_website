@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="Decorated elephant motif">
+<title>Decorated elephant motif</title>
+<rect x="118" y="232" width="38" height="42" rx="12" fill="#2E4A3B" />
+<rect x="164" y="232" width="36" height="42" rx="12" fill="#2E4A3B" />
+<rect x="248" y="232" width="36" height="42" rx="12" fill="#2E4A3B" />
+<rect x="290" y="232" width="38" height="42" rx="12" fill="#2E4A3B" />
+<rect x="120" y="268" width="34" height="8" rx="3" fill="#D8A03A" /><rect x="166" y="268" width="34" height="8" rx="3" fill="#D8A03A" /><rect x="250" y="268" width="34" height="8" rx="3" fill="#D8A03A" /><rect x="292" y="268" width="34" height="8" rx="3" fill="#D8A03A" />
+<ellipse cx="232" cy="180" rx="98" ry="72" fill="#2E4A3B"/>
+<path d="M320,150 C344,140 350,166 336,178" stroke="#2E4A3B" stroke-width="7" fill="none" stroke-linecap="round"/>
+<circle cx="338" cy="182" r="9" fill="#D8A03A"/>
+<circle cx="142" cy="182" r="64" fill="#2E4A3B"/>
+<path d="M108,196 C88,216 82,246 88,268" stroke="#2E4A3B" stroke-width="31" fill="none" stroke-linecap="round"/>
+<path d="M88,268 C92,284 108,292 120,283" stroke="#2E4A3B" stroke-width="23" fill="none" stroke-linecap="round"/>
+<path d="M120,283 C130,275 128,263 118,261" stroke="#2E4A3B" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="M112,236 C98,244 96,262 104,274" stroke="#FFF7E8" stroke-width="2" fill="none" opacity=".45"/>
+<path d="M126,232 C142,252 168,250 176,236" fill="#FFF7E8" opacity=".9"/>
+<path d="M150,140 C196,132 202,196 158,224 C132,236 116,206 120,176 C123,154 134,142 150,140 Z" fill="#C44536"/>
+<path d="M148,158 C176,154 180,192 154,210" fill="none" stroke="#D8A03A" stroke-width="2.5" opacity=".8"/>
+<circle cx="126" cy="164" r="4.5" fill="#FFF7E8"/>
+<path d="M158,148 C204,116 286,120 312,152 L308,204 Q288,228 268,204 Q248,228 228,204 Q208,228 188,204 Q170,226 156,200 Z" fill="#C44536"/>
+<path d="M160,152 C204,122 284,126 308,156" fill="none" stroke="#D8A03A" stroke-width="4"/>
+<g transform="translate(186,158)"><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(0)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(60)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(120)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(180)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(240)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(300)"/><circle r="3.38" fill="#FFF7E8"/></g><g transform="translate(228,150)"><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(0)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(60)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(120)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(180)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(240)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(300)"/><circle r="3.38" fill="#FFF7E8"/></g><g transform="translate(270,158)"><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(0)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(60)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(120)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(180)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(240)"/><ellipse cx="0" cy="-8.06" rx="3.9" ry="7.15" fill="#D8A03A" transform="rotate(300)"/><circle r="3.38" fill="#FFF7E8"/></g><line x1="170" y1="207" x2="170" y2="228" stroke="#D8A03A" stroke-width="2.5"/>
+                <circle cx="170" cy="232" r="5" fill="#D8A03A"/><line x1="208" y1="207" x2="208" y2="228" stroke="#D8A03A" stroke-width="2.5"/>
+                <circle cx="208" cy="232" r="5" fill="#D8A03A"/><line x1="246" y1="207" x2="246" y2="228" stroke="#D8A03A" stroke-width="2.5"/>
+                <circle cx="246" cy="232" r="5" fill="#D8A03A"/><line x1="284" y1="207" x2="284" y2="228" stroke="#D8A03A" stroke-width="2.5"/>
+                <circle cx="284" cy="232" r="5" fill="#D8A03A"/>
+</svg>

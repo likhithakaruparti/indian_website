@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — chandrabindu interiors</title>
+<meta name="description" content="Homes, cafés, studios and workspaces designed by chandrabindu interiors across fourteen Indian cities. Browse residential, commercial, turnkey and furniture projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- ===================== Shared sprite: arch clip-paths + icons ===================== -->
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <clipPath id="archClip" clipPathUnits="objectBoundingBox">
+      <path d="M0,1 L0,.46 C0,.22 .16,.07 .43,.02 C.46,-.01 .54,-.01 .57,.02 C.84,.07 1,.22 1,.46 L1,1 Z"/>
+    </clipPath>
+    <clipPath id="archClipCusped" clipPathUnits="objectBoundingBox">
+      <path d="M0,1 L0,.5 C0,.37 .06,.31 .14,.29 C.09,.19 .16,.12 .27,.13 C.25,.05 .34,0 .5,0 C.66,0 .75,.05 .73,.13 C.84,.12 .91,.19 .86,.29 C.94,.31 1,.37 1,.5 L1,1 Z"/>
+    </clipPath>
+  </defs>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 18l-6-6 6-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.2l2.8 2.8L16 9.5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-drag" viewBox="0 0 24 24"><path d="M9.5 7l-5 5 5 5M14.5 7l5 5-5 5"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5M5.5 9.4V20h13V9.4M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M4.5 11V8.5A2.5 2.5 0 017 6h10a2.5 2.5 0 012.5 2.5V11M2.5 12.5A1.5 1.5 0 014 11h16a1.5 1.5 0 011.5 1.5V17.5h-19zM5.5 17.5V20M18.5 17.5V20"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.6l8.5 4.7v9.4L12 21.4l-8.5-4.7V7.3zM12 12l8.5-4.7M12 12v9.4M12 12L3.5 7.3"/></symbol>
+  <symbol id="i-chair" viewBox="0 0 24 24"><path d="M7 3.5h10v8H7zM7 11.5L5.5 20.5M17 11.5l1.5 9M4.5 15h15"/></symbol>
+  <symbol id="i-kitchen" viewBox="0 0 24 24"><path d="M4 3.5h16v7H4zM4 13.5h16v7H4zM12 5.6v2.8M12 15.6v2.8"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.2"/><path d="M15.6 8.4l-2.4 6.8-6.8 2.4 2.4-6.8z"/></symbol>
+  <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 000 18c1.1 0 1.9-.9 1.9-1.9 0-.5-.2-.9-.5-1.2-.3-.4-.5-.8-.5-1.3 0-1 .8-1.8 1.8-1.8h1.4A5 5 0 0021 9.9C21 6 17 3 12 3z"/><circle cx="7.6" cy="11.6" r=".9"/><circle cx="10.4" cy="7.9" r=".9"/><circle cx="15" cy="8.4" r=".9"/></symbol>
+  <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.4 6.9l3-3 3.7 3.7-3 3zM14.4 6.9l-9.6 9.6v3.1h3.1l9.6-9.6"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M4 20c0-8 5-14 16-15 0 11-5.5 16-13 15M4 20c2-5 5-8 9-10"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.6a8.4 8.4 0 01-9 8.4 8.9 8.9 0 01-4-1L3 20.4l1.1-4.9a8.4 8.4 0 01-1-4A8.4 8.4 0 0112 3.1a8.4 8.4 0 019 8.5z"/></symbol>
+  <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M17 3.2l3.8 3.8L7.4 20.4l-4.6 1 1-4.6zM14.4 5.8l3.8 3.8"/></symbol>
+  <symbol id="i-ruler" viewBox="0 0 24 24"><path d="M3.4 16.4l13-13 4.2 4.2-13 13zM7 12.8l2 2M10 9.8l2 2M13 6.8l2 2"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7" cy="12" r="4.2"/><path d="M11.2 12H21M18.2 12v3.6M14.9 12v3"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5.5 21V4.5h8V21M13.5 9.5H19V21M7.9 8h2.2M7.9 11.6h2.2M7.9 15.2h2.2M15.4 13h1.6M15.4 16.6h1.6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.8l7.5 3v6c0 4.6-3.1 8.5-7.5 9.5-4.4-1-7.5-4.9-7.5-9.5v-6z"/><path d="M8.8 12l2.2 2.2 4.2-4.4"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0115 0"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 8.5h3.5L8 6h8l1.5 2.5H21v11H3z"/><circle cx="12" cy="13.5" r="3.6"/></symbol>
+  <symbol id="i-rupee" viewBox="0 0 24 24"><path d="M7 5h10M7 9.5h10M15.5 5c0 3.6-2.6 4.5-5 4.5H7l8 9.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M21.5 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.4 19.4 0 01-6-6A19.8 19.8 0 011.6 4.2 2 2 0 013.6 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L7.6 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.5c.9.4 1.8.6 2.8.7a2 2 0 011.7 2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.9 6.3l9.1 6.6 9.1-6.6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10.2c0 6-8 11.8-8 11.8s-8-5.8-8-11.8a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.2"/><path d="M12 6.8V12l3.5 2.1"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.1"/><path d="M17.2 6.8h.01" stroke-width="2.2"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.4 1.55-1.4H16.7V3.7c-.3-.04-1.3-.13-2.5-.13-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.7v8z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.9h3.4V21H4.8zM6.5 3.4a2 2 0 110 4 2 2 0 010-4zM10.6 8.9H14v1.65h.05a3.7 3.7 0 013.3-1.8c3.5 0 4.15 2.3 4.15 5.3V21h-3.4v-5.35c0-1.3-.02-2.95-1.8-2.95s-2.07 1.4-2.07 2.85V21h-3.4z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 01-12.8 7.3L3 20.5l1.8-5A8.5 8.5 0 1121 11.5z"/><path d="M8.8 9.2c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .6.5l.7 1.5c.1.2 0 .4-.1.5l-.4.5c-.1.2-.2.3-.1.5.4.8 1.3 1.6 2.2 2 .2.1.4 0 .5-.1l.5-.5c.2-.2.3-.2.5-.1l1.4.8c.2.1.3.2.3.4 0 .2-.1.7-.3.9-.3.3-.9.6-1.4.6-1.4 0-3.3-1.2-4.4-2.3-1-1.1-1.7-2.3-1.7-3.2 0-.6.2-1.1.6-1.5z"/></symbol>
+  <symbol id="i-lotus" viewBox="0 0 24 24"><g transform="translate(12,12)">
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2"/>
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-5.2" rx="2.1" ry="4.2" transform="rotate(300)"/>
+    <circle r="2"/></g></symbol>
+  <symbol id="i-elephant" viewBox="0 0 24 24"><path d="M20 14.5c0-4-3-6.8-7-6.8s-7 2.8-7 6.8v5M6 12.5c-1.6.4-2.5 1.8-2.5 3.4 0 1.4.8 2.6 1.8 3.1M9.5 19.5v-3M16.5 19.5v-3M20 19.5v-2.6"/><circle cx="16.8" cy="12" r=".9"/></symbol>
+  <symbol id="i-peacock" viewBox="0 0 24 24"><path d="M12 21c-2.6 0-4.5-2.1-4.5-4.6 0-2.2 1.6-3.6 1.6-5.6 0-1.5-1-2.3-1-3.8A3.9 3.9 0 0112 3a3.9 3.9 0 013.9 4c0 1.5-1 2.3-1 3.8 0 2 1.6 3.4 1.6 5.6 0 2.5-1.9 4.6-4.5 4.6z"/><circle cx="12" cy="7.5" r="1.4"/></symbol>
+</svg>
+
+<!-- ===================== Header ===================== -->
+<header class="header" id="header">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M5.5 37V19.5C5.5 12 11.9 6 20 6s14.5 6 14.5 13.5V37" fill="none" stroke="#C44536" stroke-width="1.8" opacity=".32"/>
+          <path d="M11.5 20a8.5 8.5 0 0017 0" fill="none" stroke="#2E4A3B" stroke-width="3.6" stroke-linecap="round"/>
+          <circle cx="20" cy="11.5" r="3.5" fill="#C44536"/>
+        </svg>
+        <span><span class="brand__name">chandrabindu</span><span class="brand__sub">Interiors</span></span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#testimonials">Testimonials</a></li>
+        <li><a class="btn btn--forest" href="contact.html">Let's Connect
+          <svg class="icon icon--solid" aria-hidden="true"><use href="#i-lotus"/></svg></a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== Page hero ===================== -->
+<section class="page-hero">
+  <img class="motif-bg motif-bg--tr" src="assets/img/mandala.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;·&nbsp; Portfolio</p>
+    <p class="kicker"><svg class="icon icon--solid" aria-hidden="true"><use href="#i-lotus"/></svg>
+      <span class="hi" lang="hi">हमारा काम</span></p>
+    <h1>Our Portfolio</h1>
+    <svg class="flourish" viewBox="0 0 92 10" aria-hidden="true">
+      <path class="f-line" d="M0 5h30"/><circle class="f-dot" cx="38" cy="5" r="2.2"/>
+      <path class="f-gem" d="M52 0l5 5-5 5-5-5z"/><circle class="f-dot" cx="66" cy="5" r="2.2"/>
+      <path class="f-line" d="M74 5h18"/>
+    </svg>
+    <p style="margin-top:1.5rem">Two hundred and fifty homes, fourteen cities, and a great deal of chai. Tap any project to see the scope, the timeline and what it cost to build.</p>
+  </div>
+</section>
+<div class="temple-band temple-band--mustard" aria-hidden="true"></div>
+
+<!-- ===================== Grid ===================== -->
+<section class="section">
+  <img class="motif-bg motif-bg--bl" src="assets/img/mandala.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+
+    <div class="filters" role="group" aria-label="Filter projects by type">
+      <button class="filter is-active" data-filter="all">All Projects</button>
+      <button class="filter" data-filter="residential">Residential</button>
+      <button class="filter" data-filter="commercial">Commercial</button>
+      <button class="filter" data-filter="turnkey">Turnkey</button>
+      <button class="filter" data-filter="furniture">Furniture</button>
+    </div>
+
+    <div class="grid grid--3">
+
+      <button class="project reveal" id="courtyard-house" data-category="residential"
+        data-title="The Courtyard House" data-location="Hyderabad, Telangana" data-area="4,200 sq ft"
+        data-scope="Turnkey · full home" data-timeline="22 weeks" data-year="2025"
+        data-desc="A 1970s bungalow reopened around its original courtyard. We restored the stone flooring, added a jali screen to cut the western glare, and built a sitting room that spills straight onto the garden.">
+        <div class="project__media">
+          <img src="assets/img/room-courtyard.svg" alt="A sitting room framed by carved columns opening onto a green courtyard" width="800" height="560">
+          <span class="project__badge">Residential</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">The Courtyard House</p><p class="project__meta">Hyderabad · 4,200 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="1" id="sukoon-villa" data-category="residential"
+        data-title="Sukoon Villa" data-location="Bengaluru, Karnataka" data-area="3,100 sq ft"
+        data-scope="Full home design" data-timeline="18 weeks" data-year="2025"
+        data-desc="Three generations, one house, and a brief that asked for quiet. Deep-green arches behind every bed, a pooja room that catches the morning sun, and a reading nook that was not in the original plan.">
+        <div class="project__media">
+          <img src="assets/img/room-bedroom.svg" alt="A bedroom with a deep green arch mural, upholstered headboard and bedside diyas" width="800" height="560">
+          <span class="project__badge">Residential</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Sukoon Villa</p><p class="project__meta">Bengaluru · 3,100 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="2" id="nivaasa" data-category="residential"
+        data-title="Nivaasa Apartment" data-location="New Delhi" data-area="1,650 sq ft"
+        data-scope="Full home design" data-timeline="11 weeks" data-year="2024"
+        data-desc="A builder shell handed over with grey walls and one bulb. Eleven weeks later it had a hand-painted arch, a teal sofa the family picked on day one, and enough storage to finally unpack the boxes.">
+        <div class="project__media">
+          <img src="assets/img/room-living.svg" alt="A living room with a red arch mural, teal sofa and patterned dhurrie" width="800" height="560">
+          <span class="project__badge">Residential</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Nivaasa Apartment</p><p class="project__meta">Delhi · 1,650 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" id="chai-charpai" data-category="commercial"
+        data-title="Chai &amp; Charpai Café" data-location="Jaipur, Rajasthan" data-area="1,800 sq ft"
+        data-scope="Turnkey · café interiors" data-timeline="14 weeks" data-year="2025"
+        data-desc="A café built around one long shared table, because the owners wanted strangers to end up talking. Arched windows, a mustard jali screen, and acoustics tuned so you can still hear the person opposite.">
+        <div class="project__media">
+          <img src="assets/img/room-dining.svg" alt="A café with a long shared table under tall arched windows" width="800" height="560">
+          <span class="project__badge">Commercial</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Chai &amp; Charpai Café</p><p class="project__meta">Jaipur · 1,800 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="1" id="ateliers-studio" data-category="commercial"
+        data-title="Ateliers Studio" data-location="Mumbai, Maharashtra" data-area="5,400 sq ft"
+        data-scope="Design + site supervision" data-timeline="16 weeks" data-year="2024"
+        data-desc="A design agency that wanted its office to look like its own portfolio. An arcade of arches along the back wall, warm task lighting, and a rug that hides an extraordinary amount of coffee.">
+        <div class="project__media">
+          <img src="assets/img/room-office.svg" alt="An open-plan studio with an arched arcade along the back wall" width="800" height="560">
+          <span class="project__badge">Commercial</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Ateliers Studio</p><p class="project__meta">Mumbai · 5,400 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="2" id="mandir-nook" data-category="turnkey"
+        data-title="Mandir Nook" data-location="Pune, Maharashtra" data-area="180 sq ft"
+        data-scope="Turnkey · pooja room" data-timeline="5 weeks" data-year="2026"
+        data-desc="The smallest project we have taken on, and one of the most careful. A gilded arch niche, carved jali on both flanks, and a stepped platform sized to the family's existing brass idols.">
+        <div class="project__media">
+          <img src="assets/img/room-pooja.svg" alt="A pooja room with a gilded arch niche, jali panels and lit diyas" width="800" height="560">
+          <span class="project__badge">Turnkey</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Mandir Nook</p><p class="project__meta">Pune · 180 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" id="rasoi-kitchen" data-category="turnkey"
+        data-title="Rasoi Modular Kitchen" data-location="Ahmedabad, Gujarat" data-area="220 sq ft"
+        data-scope="Modular + civil work" data-timeline="7 weeks" data-year="2025"
+        data-desc="A cramped galley kitchen for a household that cooks three meals a day. We moved one wall, added a tall unit for the pressure cookers, and tiled a backsplash that survives a tadka.">
+        <div class="project__media">
+          <img src="assets/img/room-kitchen.svg" alt="A modular kitchen with mustard cabinetry, tiled backsplash and pendant lights" width="800" height="560">
+          <span class="project__badge">Turnkey</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Rasoi Modular Kitchen</p><p class="project__meta">Ahmedabad · 220 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="1" id="baithak" data-category="furniture"
+        data-title="The Baithak Collection" data-location="Jaipur, Rajasthan" data-area="24 pieces"
+        data-scope="Custom furniture" data-timeline="12 weeks" data-year="2025"
+        data-desc="A low-seating collection built for floor-sitting households — cane-backed benches, a carved chowki, and cushions block-printed in Bagru. All of it repairable, none of it flat-packed.">
+        <div class="project__media">
+          <img src="assets/img/room-furniture.svg" alt="A furniture showroom with open shelving, a low bench and an arched display niche" width="800" height="560">
+          <span class="project__badge">Furniture</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">The Baithak Collection</p><p class="project__meta">Jaipur · 24 pieces</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="2" id="aangan" data-category="residential"
+        data-title="Aangan Residence" data-location="Chandigarh" data-area="2,400 sq ft"
+        data-scope="Full home design" data-timeline="15 weeks" data-year="2024"
+        data-desc="A coral-and-forest palette for a young family who found our usual terracotta too serious. Proof that the brief can move the studio as much as the studio moves the brief.">
+        <div class="project__media">
+          <img src="assets/img/room-living-2.svg" alt="A living room in a coral and forest-green palette with an arch mural" width="800" height="560">
+          <span class="project__badge">Residential</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Aangan Residence</p><p class="project__meta">Chandigarh · 2,400 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" id="neelkanth" data-category="commercial"
+        data-title="Neelkanth Suites" data-location="Udaipur, Rajasthan" data-area="12 keys"
+        data-scope="Hospitality interiors" data-timeline="24 weeks" data-year="2026"
+        data-desc="Twelve rooms in a converted haveli overlooking the lake. Peacock-teal arches, mustard bed platforms, and a brief that insisted every room feel different without feeling unrelated.">
+        <div class="project__media">
+          <img src="assets/img/room-bedroom-2.svg" alt="A hotel suite with a peacock-teal arch mural and a mustard bed platform" width="800" height="560">
+          <span class="project__badge">Commercial</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Neelkanth Suites</p><p class="project__meta">Udaipur · 12 keys</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="1" id="dhaba-dining" data-category="commercial"
+        data-title="Dhaba Dining Co." data-location="Amritsar, Punjab" data-area="2,600 sq ft"
+        data-scope="Turnkey · restaurant" data-timeline="13 weeks" data-year="2024"
+        data-desc="A highway dhaba that grew up. We kept the charpai seating and the open tandoor, added proper ventilation and lighting, and resisted every request to add neon.">
+        <div class="project__media">
+          <img src="assets/img/room-dining-2.svg" alt="A restaurant dining room with long timber tables and arched windows" width="800" height="560">
+          <span class="project__badge">Commercial</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Dhaba Dining Co.</p><p class="project__meta">Amritsar · 2,600 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+      <button class="project reveal" data-delay="2" id="prakash-workspace" data-category="commercial"
+        data-title="Prakash Workspace" data-location="Gurugram, Haryana" data-area="7,800 sq ft"
+        data-scope="Design + site supervision" data-timeline="20 weeks" data-year="2025"
+        data-desc="Ninety desks that had to feel like fewer. Teal arches, planting at every sightline, and acoustic panels dressed as art so nobody had to look at grey foam all day.">
+        <div class="project__media">
+          <img src="assets/img/room-office-2.svg" alt="A large workspace with teal arches, planting and warm pendant lighting" width="800" height="560">
+          <span class="project__badge">Commercial</span>
+        </div>
+        <div class="project__body">
+          <div><p class="project__title">Prakash Workspace</p><p class="project__meta">Gurugram · 7,800 sq ft</p></div>
+          <span class="project__go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+        </div>
+      </button>
+
+    </div>
+
+    <p id="portfolioEmpty" hidden class="center muted" style="padding:3rem 0">
+      No projects in this category yet — but we'd love to make yours the first.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== Stats band ===================== -->
+<section class="section section--forest section--tight">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="stat__num" data-count="250" data-suffix="+">0</div><div class="stat__label" style="color:rgba(255,247,232,.72)">Homes designed</div></div>
+      <div class="stat"><div class="stat__num" data-count="46" data-suffix="">0</div><div class="stat__label" style="color:rgba(255,247,232,.72)">Commercial fit-outs</div></div>
+      <div class="stat"><div class="stat__num" data-count="14" data-suffix="">0</div><div class="stat__label" style="color:rgba(255,247,232,.72)">Cities across India</div></div>
+      <div class="stat"><div class="stat__num" data-count="98" data-suffix="%">0</div><div class="stat__label" style="color:rgba(255,247,232,.72)">On-time handover</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="cta-band">
+  <img class="motif-bg motif-bg--tr" src="assets/img/mandala.svg" alt="" aria-hidden="true">
+  <img class="motif-bg motif-bg--bl" src="assets/img/peacock.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+    <p class="kicker kicker--center"><svg class="icon icon--solid" aria-hidden="true"><use href="#i-lotus"/></svg>
+      <span class="hi" lang="hi">अगला प्रोजेक्ट आपका</span></p>
+    <h2>Yours could be next on this page.</h2>
+    <p>Send us a floor plan, a Pinterest board, or just a photograph of the room that is bothering you. We'll take it from there.</p>
+    <div class="btn-row">
+      <a class="btn btn--primary btn--lg" href="contact.html">Start Your Project
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <a class="btn btn--cream btn--lg" href="services.html">Browse Services</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== Lightbox ===================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle" aria-hidden="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close project details">
+    <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+  </button>
+  <div class="lightbox__panel">
+    <div class="lightbox__media"><img id="lbImg" src="assets/img/room-living.svg" alt=""></div>
+    <div class="lightbox__body">
+      <p class="kicker" id="lbMeta" style="text-transform:capitalize;letter-spacing:.06em"></p>
+      <h3 id="lbTitle" style="font-size:1.75rem"></h3>
+      <p class="muted" id="lbDesc" style="font-size:.97rem"></p>
+      <ul class="lb-specs" id="lbSpecs"></ul>
+      <a class="btn btn--primary" href="contact.html" style="margin-top:1.75rem">Start a project like this
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== Footer ===================== -->
+<footer class="footer">
+  <img class="motif-elephant" src="assets/img/elephant.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:1rem">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M5.5 37V19.5C5.5 12 11.9 6 20 6s14.5 6 14.5 13.5V37" fill="none" stroke="#D8A03A" stroke-width="1.8" opacity=".45"/>
+            <path d="M11.5 20a8.5 8.5 0 0017 0" fill="none" stroke="#FFF7E8" stroke-width="3.6" stroke-linecap="round"/>
+            <circle cx="20" cy="11.5" r="3.5" fill="#D8A03A"/>
+          </svg>
+          <span><span class="brand__name">chandrabindu</span><span class="brand__sub">Interiors</span></span>
+        </a>
+        <p>Interiors that carry Indian craft into everyday modern living. Designing homes and workplaces since 2011.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg class="icon icon--solid" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg class="icon icon--solid" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#residential">Residential</a></li>
+          <li><a href="services.html#commercial">Commercial</a></li>
+          <li><a href="services.html#turnkey">Turnkey</a></li>
+          <li><a href="services.html#furniture">Custom Furniture</a></li>
+          <li><a href="services.html#vastu">Vastu &amp; Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit the studio</h4>
+        <ul>
+          <li><a href="https://maps.google.com/?q=Civil+Lines+Jaipur" target="_blank" rel="noopener">14 Amber Lane, Civil Lines,<br>Jaipur 302006</a></li>
+          <li><a href="tel:+911412345678">+91 141 234 5678</a></li>
+          <li><a href="mailto:studio@chandrabindu.in">studio@chandrabindu.in</a></li>
+          <li>Mon–Sat · 10am – 7pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p>© 2026 chandrabindu interiors. All rights reserved.</p>
+      <p>Made with <span class="hi" lang="hi">प्यार</span> in Jaipur.</p>
+    </div>
+  </div>
+  <div class="footer__tagline">
+    <svg class="icon icon--solid" aria-hidden="true"><use href="#i-lotus"/></svg>
+    <span class="hi" lang="hi">सुंदर घर, सुखी जीवन</span>
+    <svg class="icon icon--solid" aria-hidden="true"><use href="#i-lotus"/></svg>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
